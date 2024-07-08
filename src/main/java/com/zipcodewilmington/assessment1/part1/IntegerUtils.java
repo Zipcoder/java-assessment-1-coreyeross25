@@ -26,7 +26,5 @@ public class IntegerUtils {
      * @param val integer value input by client
      * @return integer with identical digits in the reverse order
      */
-    public static Integer reverseDigits(Integer val) {
-        return null;
-    }
+    public static Integer reverseDigits(Integer val) {return null;}
 }
