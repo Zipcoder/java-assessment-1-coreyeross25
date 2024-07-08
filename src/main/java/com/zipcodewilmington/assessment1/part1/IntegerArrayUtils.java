@@ -6,11 +6,9 @@ package com.zipcodewilmington.assessment1.part1;
 public class IntegerArrayUtils {
     /**
      * @param intArray an array of integers
-     * @return the sum of `intArray`
+     * @return
      */
-    public static Integer getSum(Integer[] intArray) {
-        return null;
-    }
+    public static Integer getSum(Integer[] intArray) { return null;}
 
     /**
      * @param intArray an array of integers
