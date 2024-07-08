@@ -23,11 +23,9 @@ public class IntegerArrayUtils {
      * @return the product of `intArray`
      */
     public static Integer getProduct(Integer[] intArray) {
-        int[]  arrayProduct = { 1, 2, 3, 4, 5};
-        int product = 0;
-        int i;
-        for (i = 0; i < arrayProduct.length; i++) {
-            product *= arrayProduct[i];
+        int product = 1;
+        for (int i = 0; i < intArray.length; i++) {
+            product  *= intArray[i];
         }
         return product;
     }
