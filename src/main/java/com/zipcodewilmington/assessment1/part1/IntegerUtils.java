@@ -14,6 +14,7 @@ public class IntegerUtils {
         return null;
     }
 
+
     /**
      * @param n integer value input by client
      * @return the product of all integers between 0 and not including `n`
@@ -26,7 +27,5 @@ public class IntegerUtils {
      * @param val integer value input by client
      * @return integer with identical digits in the reverse order
      */
-    public static Integer reverseDigits(Integer val) {
-        return null;
-    }
+    public static Integer reverseDigits(Integer val) {return null;}
 }

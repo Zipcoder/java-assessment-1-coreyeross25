@@ -6,10 +6,15 @@ package com.zipcodewilmington.assessment1.part1;
 public class IntegerArrayUtils {
     /**
      * @param intArray an array of integers
-     * @return the sum of `intArray`
+     * @return
      */
     public static Integer getSum(Integer[] intArray) {
-        return null;
+        int sum = 0;
+        int i;
+        for (i = 0; i < intArray.length; i++){
+            sum += intArray[i];
+        }
+        return sum;
     }
 
     /**
@@ -17,7 +22,11 @@ public class IntegerArrayUtils {
      * @return the product of `intArray`
      */
     public static Integer getProduct(Integer[] intArray) {
-        return null;
+        int product = 1;
+        for (int i = 0; i < intArray.length; i++) {
+            product  *= intArray[i];
+        }
+        return product;
     }
 
     /**
@@ -25,6 +34,11 @@ public class IntegerArrayUtils {
      * @return the sum of `intArray` divided by number of elements in `intArray`
      */
     public static Double getAverage(Integer[] intArray) {
-        return null;
+        int sum = 0;
+        int i;
+        for (i = 0; i < intArray.length; i++){
+            sum += intArray[i] ;
+        }
+        return (double) sum / intArray.length;
     }
 }
